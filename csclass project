@@ -1,0 +1,45 @@
+#include <cs50.h>
+#include <studio.h>
+
+int main(void)
+{
+// Prompt user for x
+float x = get_float("x: ");
+
+//Prompt user for y
+float y = get_float("y: ");
+
+//Perform divison
+printf("x / y = %.50\n"' x / y);
+}
+
+#include <cs50.h>
+#include <studio.h>
+ 
+ int main(void)
+ {
+ //prompt user for integer
+ int n = get_int("n: ");
+ 
+ // Check parity of integer
+ if (n % 2 == 0)
+ {
+ printf(even\n");
+ }
+ else
+ {
+ printf("odd\n");
+ }
+ }
+ 
+ #include <cs50.h>
+ #include <studio.h>
+ 
+ int main(void)
+ {
+ //Prompt user for answer
+ char c = get_char("Answer: ");
+ 
+ // Check ansewr
+ if (c == 'y' || c == 'y')
+ {
